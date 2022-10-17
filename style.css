@@ -1,79 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: 'Roboto';
 }
-body{
-    background-color: #E5E5E5;
+@media (min-width: 1280px) {
+  /* format section start */
+.format {
+    margin-bottom: 15vw;
 }
-h1{
-    padding: 20px 50px;
-    font-size: 30px;
+
+.format-container {
+    /* padding-left: 8vw; */
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 25px 16px
 }
-main{
-    width: 100%;
+
+.format-header {
+    margin-bottom: 8.3vw;
+}
+
+.format-main {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px 25px;
-}
-main .about{
-    width: 50%;
-    font-size: 24px;
-    line-height: 36px;
-}
-main aside{
-
-    width:35%;
-}
-main aside img{
-    width:100%;
-    max-width: 300px;
-    height:315px;
-}
-.duration{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 25px;
-}
-.duration .right-side{
-    width: 70%;
-    display: flex;
-    flex-wrap: wrap;
-    gap:30px;
-    padding: 5px 10px;
 }
 
-.duration .right-side h2{
-    font-size: 25px;
-    margin:10px 0;
-}
-.duration .right-side p{
-    font-size: 18px;
+.format-main-box {
+    margin-right: 7.5vw;
 }
 
+.format-main h4 {
+    color: #1E4681;
+    margin-bottom: 1vw;
+    font-family: 'Roboto Slab';
+}
 
+.format-main-box p {
+    font-size: 1.3vw;
+    width: 20vw;
+}
 
-@media screen and (max-width:830px){
-   .duration img{
-    display: none;
+/* format section end */
+
+/* knowladge section start */
+.knowladge {
+    margin-bottom: 15vw;
+}
+
+.knowladge-container {
+    /* padding-left: 8vw; */
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 25px 16px
+}
+
+.knowladge-header {
+    margin-bottom: 3.5vw;
+}
+
+.knowladge-main-content ul {
+    width: 46vw;
+    padding-left: 2vw;
+    font-size: 1.7vw;
+}
+}
+
+@media (min-width: 500px) and (max-width: 799px) {
+    /* format section start */
+    .format {
+       margin-bottom: 21vw;
    }
-   .about p{
-       font-size: 14px;
-       line-height: 22px;
-   }
-   aside img{
-       max-height: 250px !important;
-   }
-}
 
-@media screen and (max-width:375px){
-    main{
-        flex-direction: column;
-    }
-    .about,aside{
-        width: 70% !important;
-    }
+   .format-container {
+       padding-left: 10vw;
+       max-width:1200px;
+       margin: 0 auto;
+    /* padding: 25px 16px; */
+   }
+
+   .format-header {
+       margin-bottom: 7vw;
+   }
+
+
+   .format-main-box {
+       margin-bottom: 7vw;
+   }
+
+   .format-main h4 {
+       color: #1E4681;
+       margin-bottom: 1vw;
+   }
+
+   .format-main-box p {
+       font-size: 2.6vw;
+       width: 50vw;
+       padding-right: 6vw;
+   }
+
+   /* format section end */
+
+   /* knowladge section start */
+   .knowladge {
+       margin-bottom: 21vw;
+   }
+
+   .knowladge-container {
+       padding-left: 10vw;
+       padding-left: 10vw;
+       max-width:1200px;
+       margin: 0 auto;
+   }
+
+   .knowladge-header {
+       margin-bottom: 7vw;
+   }
+
+   .knowladge-main-content ul {
+       width: 80vw;
+       padding-left: 5vw;
+       font-size: 2.8vw;
+       line-height: 150%;
+   }
+
+   /* knowladge section end */
+}
+@media (min-width: 800px) and (max-width: 1279px) {
+    /* format section start */
+     .format {
+         margin-bottom: 15vw;
+     }
+ 
+     .format-container {
+         padding-left: 8vw;
+         max-width:1200px;
+         margin: 0 auto;
+     /* padding: 25px 16px; */
+     }
+ 
+     .format-header {
+         margin-bottom: 8.3vw;
+     }
+ 
+     .format-main {
+         display: flex;
+     }
+ 
+     .format-main-box {
+         margin-right: 7.5vw;
+     }
+ 
+     .format-main h4 {
+         color: #1E4681;
+         margin-bottom: 1vw;
+         font-family: 'Roboto Slab';
+         font-size: 1.9vw;
+     }
+ 
+     .format-main-box p {
+         font-size: 1.8vw;
+         width: 20vw;
+     }
+ 
+     /* format section end */
+ 
+     /* knowladge section start */
+     .knowladge {
+         margin-bottom: 15vw;
+     }
+ 
+     .knowladge-container {
+       
+         padding-left: 8vw;
+         max-width:1200px;
+         margin: 0 auto;
+     }
+ 
+     .knowladge-header {
+         margin-bottom: 3.5vw;
+     }
+ 
+     .knowladge-main-content ul {
+         width: 46vw;
+         padding-left: 2vw;
+         font-size: 2.1vw;
+     }
+ 
+     /* knowladge section end */
  }
